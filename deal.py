@@ -15,5 +15,6 @@ shuffle(characters)
 shuffle(characters)
 shuffle(characters)
 
-print(characters)
-print(players)
+assign = [[x, y] for x, y in zip(characters, players)]
+
+print(assign)
